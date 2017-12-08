@@ -1,0 +1,9 @@
+# your code goes here
+while True:
+	n=input()
+	p=n.split()
+	a=int(p[0])
+	b=int(p[1])
+	if a==0 and b==0:
+		break
+	print(a**b)

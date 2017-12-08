@@ -1,0 +1,7 @@
+# your code goes here
+t=int(input())
+for i in range(t):
+	n=input()
+	p=n.split()
+	a,b=[int(x) for x in p]
+	print(a*b)
